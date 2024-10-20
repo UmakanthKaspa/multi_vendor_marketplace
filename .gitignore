@@ -5,3 +5,5 @@
 tags
 node_modules
 __pycache__
+multi_vendor_marketplace/www/multi_vendor_marketplace.html
+multi_vendor_marketplace/public/frontend

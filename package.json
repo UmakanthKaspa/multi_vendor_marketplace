@@ -1,0 +1,24 @@
+{
+  "name": "multi_vendor_marketplace",
+  "version": "1.0.0",
+  "description": "The Multi Vendor Marketplace is an online platform that connects various vendors with customers, providing a seamless shopping experience. Vendors can easily manage their products, while customers can browse, purchase, and review a diverse range of items.",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.21.5",
+    "nanoid": "^3.3.7",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.4.47",
+    "rollup": "^4.24.0",
+    "source-map-js": "^1.2.1",
+    "vite": "^5.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "cd frontend && npm i",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

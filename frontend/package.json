@@ -5,18 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/assets/multi_vendor_marketplace/frontend/  && npm run copy-html-entry",
+    "copy-html-entry": "cp ../multi_vendor_marketplace/public/frontend/index.html ../multi_vendor_marketplace/www/multi_vendor_marketplace.html",
     "preview": "vite preview"
   },
   "dependencies": {
-    "frappe-ui": "^0.1.71",
+    "frappe-ui": "^0.1.70",
     "vue": "^3.5.10"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14",
+    "tailwindcss": "^3.4.13",
     "vite": "^5.4.8"
   }
 }
